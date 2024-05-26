@@ -14,4 +14,5 @@ Este poryecto es un portafolio de evidencias que he realizo como práctica que m
 + **Bootstrap**:Animaciones,acomodación de los elementos.
 
 ## Vista previa del proyecto
-![head](images/portafolio.png)
+![hi](assets/images/portafolio.png)
+
