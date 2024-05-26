@@ -12,4 +12,6 @@ Este poryecto es un portafolio de evidencias que he realizo como práctica que m
 + **HTML**:Estructura básica del sitio web.
 + **CSS5**:Estilos y diseño.
 + **Bootstrap**:Animaciones,acomodación de los elementos.
-  
+
+## Vista previa del proyecto
+![head](images/portafolio.png)
