@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Mariana | Portafolio</title>
+</head>
+
+<body>
+
+    <!--Barra de Navegación-->
+    <nav>
+        <h1>Mariana Aguilar</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon> 
+        </button>
+    </nav>
+
+
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+          <img src="assets/images/gif_proyectos.gif" alt="proyectos by Mariana" class="hero-img" loading="lazy"> <!--loading="lazy" -> Es una propiedad que permite mostrar la imagen cuando la pagina ya cargo al 100%-->
+          <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <P class="bio-text">
+                Hola, soy Mariana Aguilar recien egresada de la carrera Ing.Sistemas computaciones,de la universidad TESOEM del estado de México.
+            </P>
+          </div>
+    </section>
+
+    <!--Sobre Mí-->
+    <section class="more-about">
+        <h2>More about me</h2>        
+        <p>Cada que aprendo algo nuevo de tecnologia me gusta compartir lo que aprendi,dar mi punto de vista.</p>
+        <p>Mi deporte favorito es el Taekwondo,me fasina asistir a competencias y conocer gente nueva de diferentes nacionalidades.</p>
+
+    </section>
+
+    <!--Sección Habilidades-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icon/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icon/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icon/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icon/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icon/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icon/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Sección de Proyectos-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/pinterest-interfaz.png" alt="interfaz pinterest" loading="lazy" class="project-pic">
+                <h3 class="project-title">Interfaz de Pinterest</h3>
+                <p class="project-details">En este apartado encontraremos la replica de la interfaz de <i> Pinteres</i>, construido con las herramientas de HTML,CSS</p>
+                <a href="https://github.com/Mariana006/interfazpinterest.git" target="_blank" class="project-link">Check it out</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="assets/images/interfaz_portafolio.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Interfaz de portafolio de evidencias</h3>
+                <p class="project-details">Este diseño de portafolio es sensillo con el fin de que lo puedan personalizar a su gusto</p>
+                <a href="https://github.com/Mariana006/interfazdeproyectos" target="_blank" class="project-link">Check it out</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="assets/images/gato.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Descripción del proyecto</p>
+                <a href="#" target="_blank" class="project-link">Check it out</a>
+            </div>
+            
+        </div>
+    </section>
+    <!--Sección de Contacto-->
+
+
+
+    <!--Sección de Redes Sociales-->
+    <div class="socials">
+        <a href="https://github.com/Mariana006" target="_blank"><img src="assets/icon/git.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.linkedin.com/in/mariana-aguilar-s/" target="_blank"><img src="assets/icon/linkedin.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+        <a href="#" target="_blank"><img src="assets/icon/insta.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+
+    </div>
+    
+    <!-- Scroll button -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icon/icon-arrow.gif" alt="icono_subir" class="socicon up-arrow">
+    </i>
+
+
+    <!--Sección Footer-->
+    <footer>
+        <p>Built with &#x2661, by <a href="#" target="_blank">Mariana Aguilar</a></p>
+    </footer>
+
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
